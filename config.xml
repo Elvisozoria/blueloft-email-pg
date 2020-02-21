@@ -9,6 +9,8 @@
     <author email="admin@blueloft.do" href="http://blueloft.do">
         Admin
     </author>
+
+    
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
@@ -111,4 +113,16 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+
+
+    <allow-navigation href="http://cordova.apache.org/" />
+    <allow-navigation href="https://slack.cordova.io" />
+    <allow-navigation href="http://www.google-analytics.com/" />
+    <allow-navigation href="https://*.imgur.com/" />
+    <allow-navigation href="https://*.twitter.com/" />
+    <allow-navigation href="https://*.twimg.com/" />
+    <allow-navigation href="http://cordovablogs.discus.com/" />
+    <allow-navigation href="https://correo.blueloft.do/" />
+
+
 </widget>
