@@ -7,7 +7,7 @@
     <feature name="Device">
         <param name="browser-package" value="Device" />
     </feature>
-    <name>Blueloft</name>
+    <name>Blueloft-email</name>
     <description>
        Esta aplicacion es parte de la innovacion tecnologica del Blueloft international team
     </description>
