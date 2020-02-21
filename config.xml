@@ -123,8 +123,6 @@
     <allow-navigation href="https://*.twimg.com/" />
     <allow-navigation href="http://cordovablogs.discus.com/" />
     <allow-navigation href="https://correo.blueloft.do/" />
-    <allow-navigation href="*" />
-
 
 
 </widget>
