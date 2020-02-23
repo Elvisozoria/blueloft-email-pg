@@ -1,7 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <icon src="icon.png" />
+<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
 
+    <feature name="Device">
+        <param name="browser-package" value="Device" />
+    </feature>
+    <icon src="icon.png" />
     <name>Blueloft-email</name>
     <description>
        Esta aplicacion es parte de la innovacion tecnologica del Blueloft international team
@@ -9,11 +12,8 @@
     <author email="admin@blueloft.do" href="http://blueloft.do">
         Admin
     </author>
-
-    
     <content src="index.html" />
-    <preference name="DisallowOverscroll" value="true" />
     <allow-navigation href="*" />
     <access origin="*" />
-
+    <preference name="DisallowOverscroll" value="true" />
 </widget>
